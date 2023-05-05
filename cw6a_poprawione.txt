@@ -1,0 +1,24 @@
+Zadanie 1 
+
+id_produktu->nazwa_produktu, cena_produktu, VAT
+id_klienta->nazwa_klienta, data_zamowienia, suma netto, suma brutto
+suma_netto, VAT->suma_brutto
+id produktu->ilość, suma brutto
+
+Zadanie 2
+
+id klienta
+id produktu
+nazwa klienta, data_zamowienia, id_produktu/nazwa_produktu
+
+Zadanie 3
+
+Zależności:
+id_pomieszczenia->numer_pomieszczenia, id_budynku, powierzchnia, liczba_okien, liczba_drzwi
+id budynku->>ulica, miasto, kod_pocztowy
+kod_pocztowy->miasto
+miasto,ulica->kod pocztowy
+
+
+Klucze kandydujące:
+id_pomieszczenia
